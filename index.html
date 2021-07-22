@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="imagess/lloo.png" width="350" height="60"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarResponsive" >
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+		<li class="navbar-item active">
+			<a class  ="nav-link" href="#main">Main</a>
+		</li>
+			<li class="navbar-item active">
+				<a class  ="nav-link" href="#about">About</a>
+			</li>
+				<li class="navbar-item active">
+					<a class  ="nav-link" href="#projects">Projects</a>
+				</li>
+					<li class="navbar-item active">
+						<a class  ="nav-link" href="#skills">Skills</a>
+					</li>
+						<li class="navbar-item active">
+							<a class  ="nav-link" href="#contact">Contact</a>
+		</li>
+	</ul>
+	</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1" class="active"></li>
+	
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item"container-fluid>
+			<img src="imagess/back3.jpg"width="1650" height="660">
+			<div class="carousel-caption">
+				<h1 class="display-2">Hello!</h1>
+				<h3> I am Kartikey :)</h3>
+				<a href="#contact"><button type="button" class="btn btn-outline-light btn-lg">Contact Details</button></a>
+				<a href="imagess/cv.png"><button type="button" class="btn btn-primary btn-lg">Download CV</button>
+				</a>
+			</div>
+		</div>
+		<a name="main"></a>
+		<div class="carousel-item active">
+			<img src= "imagess/back5.jpg" width="1650" height="660">
+			<div class="carousel-caption">
+				<h3> A note from Developer</h3>
+				<h8 class="display-5">"This is my first attempt of website building, Hope you like it :)"</h8>
+				
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row Jumbotron">
+		<div class="col-x-12 col-sm-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead"> If you are interested in reading! So here i present you my blogs. Do check out and feel free to give your response on my email mentioned below. 
+
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="imagess/blog-exp.docx"><button type="button" class="btn btn-outline-secondary btn-lg">Read my blogs ></button></a>
+		</div>
+	</div>
+	<hr class=my-4>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<a name="about"></a>
+			<h1 class="display-4">About me..</h1>
+		</div>
+			<hr>
+			<div class="col-md-12 col-lg-6">
+				<h2>Hi, I am Kartikey Goel</h2>
+				</div>
+			<div class="col-12">
+				<p class="lead">i am currently studing in second year at BITS Pilani and completing my B. Tech in computer science.
+  I have interest in the field of technology and finance . Also love to build new and exciting projects.</p>
+			</div>
+	</div>
+</div>
+<hr class="my-4">
+
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>Now you know me</h2>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				
+				
+			</p>
+			<p>"Let's look into my project and skills":-</p>
+			<br>
+		</div>
+		<div class="col-lg-6">
+			<img src="imagess/hiih.jpg">
+		</div>
+	</div>
+</div>
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!--- Projects -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<a name="projects"></a>
+			<h1 class="display-4">My Projects</h1>
+		</div>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-imd-top" src="">
+				<div class="card-body">
+					<h4 class="card-title">Web Development</h4>
+					<p class="card-text">Have learned about building a website with the help of HTML+CSS.Have made an
+	interactive website and have hosted it on github. </p>
+					<a href="https://web.dev/" class="btn btn-outline-secondary">Let's Check Out</a><br>
+					<img src ="imagess/wd.png" width="200" height="200" class="img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-imd-top" src="">
+				<div class="card-body">
+					<h4 class="card-title">App Development</h4>
+					<p class="card-text">Build a android application which is used for estimating
+						the weather forcast of the location of the user.
+					</p>
+					<a href="https://developer.apple.com/" class="btn btn-outline-secondary">Let's Check Out</a><br>
+					<img src ="imagess/ad.jpg" width="330" height="400" class="img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-imd-top" src="">
+				<div class="card-body">
+					<h4 class="card-title">Python Projects</h4>
+					<p class="card-text">Build a user responsive ATM project by application of basic
+						python elements.It worked like an actual ATM machine in the bank.
+					</p>
+					<a href="https://www.python.org/" class="btn btn-outline-secondary">Let's Check Out</a><br><p> </p>
+					<img src ="imagess/py.png" width="180" height="200" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class=my-4>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="two-column">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<a name="skills"></a>
+			<h1>My Skills</h1>
+			<p>- I am fond of reading novels and have interest in public speaking.<br>
+				- I like to draw and sketch.<br>
+				- I play outdoor sports like cricket and football.<br>
+				- I am interested in learning new things and discovering new fields.<br>
+				- I have knowledge of four programming languages : python, c++, java, and kotlin.<br>
+				- I have interest in competitive coding.<br>
+				- I like to build fully functioning android apps.<br>
+				- I can also create my own portfolio using html+css.  :)
+			</p>
+			<p>I also try new and exciting things in my spare but productive time, like i tried cooking, gardening, swimming, and learned to play guitar.</p>
+		</div>
+		<div class="col-lg-6">
+			<img src="imagess/peace.png" width="240" height="400"class="img-fluid">
+		</div>
+	</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+<div class="col-x-12 col-sm-6 col-md-4">
+<h3>Sketching</h3>
+<p>Would love to sketch you whenever we meet.</p>
+</div>
+	<div class="col-x-12 col-sm-6 col-md-4">
+			<h3>Coding</h3>
+			<p>One of the greatest prerequisite to have at the present.</p>
+		</div>
+		<div class="col-x-12 col-sm-6 col-md-4">
+<h3>Football</h3>
+<p>Will play together some day maybe:)</p>
+	</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<a name="contact"></a>
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+			<a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+			<a href="https://play.google.com/"><i class="fab fa-google-plus-g"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="">
+				<hr class="light">
+				<h5>My details</h5>
+				<p>555-555-555</p>
+				<p>kartikey.goel.11@gmail.com</p>
+				<P>A-1205, Omaxe Reviera,</P>
+				<P>New Delhi,201010</P>
+			</div>
+			<div class="col-md-4">
+				<img src="">
+				<hr class="light">
+				<h5>Contact details</h5>
+				<p>555-555-555</p>
+				<p>kartikey.goel.11@gmail.com</p>
+
+			</div>
+			<div class="col-md-4">
+				<img src="">
+				<hr class="light">
+				<h5>My Address</h5>
+				<P>A-1205, Omaxe Reviera,</P>
+				<P>New Delhi,201010</P>
+			</div>
+			<div class="col-12">
+				<hr class="light">
+				<h5>&copy; kartikey.goel.11@gmail.com</h5>
+			</div>
+			</div>
+</footer>
+
+
+
+</body>
+</html>
